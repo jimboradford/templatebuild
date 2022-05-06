@@ -1,4 +1,4 @@
-hostname {{hostname}}
+hostname {{ simple['hostname'] }}
 !
-ntp server {{ntpserv1}} prefer
+ntp server {{ simple['ntpserv1'} }} prefer
 !
